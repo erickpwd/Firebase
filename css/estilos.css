@@ -1,0 +1,41 @@
+#cuerpo {
+    width: 390px;
+    height: 720px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #4d81d5;
+    text-align: left;
+}
+
+h1 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 5px 0 0;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #45a049;
+}

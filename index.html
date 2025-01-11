@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Firebase</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body id="cuerpo">
+    <h1>CRUD En Firebase</h1>
+    <label>Nombre(s)</label>
+    <label for="nombre">
+        <input type="text" id="nombre">
+    </label>
+    <br><br>
+
+    <label>Apellido(s)</label>
+    <label for="apellido">
+        <input type="text" id="apellido">
+    </label>
+    <br><br>
+
+    <label>Departamento</label>
+    <label for="departamento">
+        <select id="departamento">
+            <option value="default">---Seleccione una Departamento---</option>
+            <option value="desarrollo">Desarrollo</option>
+            <option value="pruebas">Pruebas</option>
+            <option value="gestion">Gestión</option>
+            <option value="administracion">Administración</option>
+            <option value="ventas">Ventas</option>
+        </select>
+    </label>
+    <br><br>
+
+    <label>Contrato Permanente</label>
+    <label for="cpermanente">
+        <select id="cpermanente">
+            <option value="default">---Seleccione Una Opción---</option>
+            <option value="si">Si</option>
+            <option value="no">No</option>
+        </select>
+    </label>
+    <br><br>
+
+    <label>Número De Empleado:</label>
+    <label for="nempleado">
+        <input type="number" id="nempleado">
+    </label>
+    <br><br>
+
+    <label for="empleadosSelect">Usuarios Registrados</label>
+    <select id="empleadosSelect">
+        <option value="">---Selecciona Un Empleado--</option>
+    </select><br><br>
+
+    <div class="button-container">
+        <button id="registrar">Registrar</button>
+        <button id="actualizar">Actualizar</button>
+        <button id="eliminar">Eliminar</button>
+        <button id="limpiar">Limpiar</button>
+    </div>
+
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>
